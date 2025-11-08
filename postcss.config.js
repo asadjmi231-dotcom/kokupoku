@@ -1,5 +1,6 @@
-export default {
-  from: undefined, // ✅ Prevents PostCSS “from” warning
+// postcss.config.js
+module.exports = {
+  from: undefined,
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
