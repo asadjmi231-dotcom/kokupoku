@@ -1,7 +1,7 @@
 export default {
-  from: undefined, // ✅ prevents PostCSS warning
+  from: undefined, // ✅ Prevents PostCSS “from” warning
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
-}
+};
